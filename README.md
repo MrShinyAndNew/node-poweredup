@@ -71,7 +71,7 @@ Node.js v12.0+ required.
 npm install node-poweredup --save
 ```
 
-node-poweredup uses the Noble BLE library by Sandeep Mistry. On macOS everything should function out of the box. On Linux and Windows there are [certain dependencies which may need installed first](https://github.com/abandonware/noble#prerequisites).
+node-poweredup uses the Noble BLE library by Sandeep Mistry. On macOS everything should function out of the box. On Linux and Windows there are [certain dependencies which may need installed first](https://github.com/stoprocent/noble#prerequisites).
 
 Note: node-poweredup has been tested on macOS 11.0 and Debian/Raspbian on the Raspberry Pi 3 Model B.
 
@@ -120,7 +120,7 @@ In addition, the Hubs themselves have certain built-in features which this libra
 
 * The SPIKE Prime Hub does not use Bluetooth Low Energy, so is not supported via this library. It is recommended you use MicroPython to develop for this Hub using the officially provided tools and software. The SPIKE Essential Hub however is supported, as it uses Bluetooth Low Energy.
 
-* On most Unix systems, you need root permissions to access Bluetooth devices. You may want to [grant the node executable access to the Bluetooth adapter](https://github.com/abandonware/noble#running-without-rootsudo-linux-specific)
+* On most Unix systems, you need root permissions to access Bluetooth devices. You may want to [grant the node executable access to the Bluetooth adapter](https://github.com/stoprocent/noble#running-without-rootsudo-linux-specific)
 
 ### Credits
 

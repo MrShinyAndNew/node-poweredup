@@ -1,4 +1,4 @@
-import { Peripheral } from "@abandonware/noble";
+import { Peripheral } from "@stoprocent/noble";
 
 import { NobleDevice } from "./nobleabstraction";
 
@@ -17,7 +17,7 @@ import { EventEmitter } from "events";
 
 import Debug = require("debug");
 const debug = Debug("poweredup");
-import noble = require("@abandonware/noble");
+import noble = require("@stoprocent/noble");
 import { TechnicSmallHub } from "./hubs/technicsmallhub";
 
 let ready = false;

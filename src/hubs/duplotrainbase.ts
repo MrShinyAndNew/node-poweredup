@@ -1,4 +1,4 @@
-import { Peripheral } from "@abandonware/noble";
+import { Peripheral } from "@stoprocent/noble";
 
 import { LPF2Hub } from "./lpf2hub";
 

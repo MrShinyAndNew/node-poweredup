@@ -1,4 +1,4 @@
-declare module "@abandonware/noble" {
+declare module "@stoprocent/noble" {
     // Type definitions for noble
     // Project: https://github.com/sandeepmistry/noble
     // Definitions by: Seon-Wook Park <https://github.com/swook>

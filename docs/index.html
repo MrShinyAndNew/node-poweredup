@@ -101,7 +101,7 @@ console.log(&quot;Scanning for Hubs...&quot;);
 <p>Node.js v12.0+ required.</p>
 <pre class="prettyprint source lang-javascript"><code>npm install node-poweredup --save
 </code></pre>
-<p>node-poweredup uses the Noble BLE library by Sandeep Mistry. On macOS everything should function out of the box. On Linux and Windows there are <a href="https://github.com/abandonware/noble#prerequisites">certain dependencies which may need installed first</a>.</p>
+<p>node-poweredup uses the Noble BLE library by Sandeep Mistry. On macOS everything should function out of the box. On Linux and Windows there are <a href="https://github.com/stoprocent/noble#prerequisites">certain dependencies which may need installed first</a>.</p>
 <p>Note: node-poweredup has been tested on macOS 11.0 and Debian/Raspbian on the Raspberry Pi 3 Model B.</p>
 <h3>Compatibility</h3>
 <p>While most Powered Up components and Hubs are compatible with each other, there are exceptions. For example, there is limited backwards compatibility between newer components and the WeDo 2.0 Smart Hub. However WeDo 2.0 components are fully forwards compatible with newer Hubs.</p>
@@ -354,7 +354,7 @@ console.log(&quot;Scanning for Hubs...&quot;);
 <p>The SPIKE Prime Hub does not use Bluetooth Low Energy, so is not supported via this library. It is recommended you use MicroPython to develop for this Hub using the officially provided tools and software. The SPIKE Essential Hub however is supported, as it uses Bluetooth Low Energy.</p>
 </li>
 <li>
-<p>On most Unix systems, you need root permissions to access Bluetooth devices. You may want to <a href="https://github.com/abandonware/noble#running-without-rootsudo-linux-specific">grant the node executable access to the Bluetooth adapter</a></p>
+<p>On most Unix systems, you need root permissions to access Bluetooth devices. You may want to <a href="https://github.com/stoprocent/noble#running-without-rootsudo-linux-specific">grant the node executable access to the Bluetooth adapter</a></p>
 </li>
 </ul>
 <h3>Credits</h3>

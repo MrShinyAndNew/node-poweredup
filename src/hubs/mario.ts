@@ -1,4 +1,4 @@
-import { Peripheral } from "@abandonware/noble";
+import { Peripheral } from "@stoprocent/noble";
 import compareVersion from "compare-versions";
 
 import { IBLEAbstraction } from "../interfaces";
